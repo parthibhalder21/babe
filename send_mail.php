@@ -19,8 +19,8 @@ try {
     $mail->Port       = 465;
 
     //Recipients
-    $mail->setFrom('from@example.com', 'Mailer');         //Set the sender of the message (your email address)
-    $mail->addAddress('joe@example.net', 'Joe User');     //Add a recipient (your bae's email address)
+    $mail->setFrom('from@example.com', 'Parthi Bhalder');       //Set the sender of the message (your name)
+    $mail->addAddress('parthibhalder21@gmail.com', 'Parthi Bhalder');  //Add your girlfriend's email address
 
     //Content
     $mail->isHTML(true);
@@ -32,3 +32,5 @@ try {
 } catch (Exception $e) {
     echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
 }
+?>
+
